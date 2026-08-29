@@ -8,12 +8,27 @@ import {
   Sun,
   WrenchOff,
 } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 function Header() {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(()=>{
+    return localStorage.getItem("theme")=="dark";
+  });
+  useEffect(()=>{
+     const theme=localStorage.getItem("theme");
+     if(theme==="dark"){
+      document.documentElement.classList.add("dark");
+     }else{
+      document.documentElement.classList.remove("dark")
+     }
+  },[])
   const handleToggleTheme = () => {
-    setIsDark(!isDark);
-     document.documentElement.classList.toggle("dark");
+    setIsDark((prev)=>{
+      const newTheme=!prev;
+      localStorage.setItem("theme",newTheme?"dark":"light");
+      console.log(document.documentElement.classList)
+      document.documentElement.classList.toggle("dark",newTheme);
+      return newTheme;
+    });
   };
   return (
     <>
