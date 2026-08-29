@@ -11,11 +11,12 @@ import {
 import { useEffect, useState } from "react";
 function Header() {
   const [isDark, setIsDark] = useState(()=>{
-    return localStorage.getItem("theme")=="dark";
+    const theme = localStorage.getItem("theme")
+    return theme === null || theme ==="dark";
   });
   useEffect(()=>{
      const theme=localStorage.getItem("theme");
-     if(theme==="dark"){
+     if(theme === null || theme==="dark"){
       document.documentElement.classList.add("dark");
      }else{
       document.documentElement.classList.remove("dark")
@@ -25,7 +26,6 @@ function Header() {
     setIsDark((prev)=>{
       const newTheme=!prev;
       localStorage.setItem("theme",newTheme?"dark":"light");
-      console.log(document.documentElement.classList)
       document.documentElement.classList.toggle("dark",newTheme);
       return newTheme;
     });
