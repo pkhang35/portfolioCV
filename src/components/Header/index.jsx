@@ -9,6 +9,7 @@ import {
   WrenchOff,
 } from "lucide-react";
 import { useEffect, useState } from "react";
+import "./Header.css";
 function Header() {
   const [isDark, setIsDark] = useState(()=>{
     const theme = localStorage.getItem("theme")
@@ -36,25 +37,43 @@ function Header() {
         <div className="container mx-auto">
           <div className="h-15 flex items-center justify-center">
             <ul className="mt-3 p-2 bg-gray-light dark:bg-gray-dark rounded-2xl flex gap-3 items-center justify-center">
-              <li>
+              <li className="nav-item hover:text-primary">
                 <House />
+                <span className="tooltip">
+                  Trang Chủ
+                </span>
               </li>
-              <li>
+              <li className="nav-item hover:text-primary">
                 <WrenchOff />
+                <span className="tooltip">
+                  Kỹ Năng
+                </span>
               </li>
-              <li>
+              <li className="nav-item hover:text-primary">
                 <Folder />
+                 <span className="tooltip">
+                  Dự Án
+                </span>
               </li>
-              <li>
+              <li className="nav-item hover:text-primary">
                 <ChartColumnIncreasing />
+                <span className="tooltip">
+                  Kinh Nghiệm
+                </span>
               </li>
-              <li>
+              <li className="nav-item hover:text-primary">
                 <GraduationCap />
+                 <span className="tooltip">
+                  Học Vấn
+                </span>
               </li>
-              <li>
+              <li className="nav-item hover:text-primary">
                 <Languages />
+                 <span className="tooltip">
+                  Ngôn Ngữ
+                </span>
               </li>
-              <li>
+              <li className="nav-item">
                 <button
                   onClick={handleToggleTheme}
                   type="button"
@@ -86,6 +105,9 @@ function Header() {
                     )}
                   </span>
                 </button>
+                <span className="tooltip">
+                  {isDark ? "Chế độ sáng" : "Chế độ tối"}
+                </span>
               </li>
             </ul>
           </div>
