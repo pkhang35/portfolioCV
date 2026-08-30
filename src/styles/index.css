@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500;600;700&display=swap");
+
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 @theme {
@@ -7,4 +9,18 @@
   --color-gray-light: #DEDEDE;
   --color-toggle-dark:#282A2F;
   --color-toggle-light:#EFF0F3;
+  --font-heading: "Anton", sans-serif;
+  --font-body: "Roboto", sans-serif;
+}
+body {
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
 }
