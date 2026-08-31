@@ -435,7 +435,7 @@ function Home() {
 
           {/* Section title */}
           <h2 className="mb-16 text-5xl text-gray-900 dark:text-white">
-            Kỹ năng chuyên môn
+            Kỹ Năng Chuyên Môn
           </h2>
 
           {/* Frontend */}
@@ -649,6 +649,112 @@ function Home() {
 
         </div>
       </section>
+
+      {/* Experience */}
+      <section id="experience" className="py-24">
+        <div className="container mx-auto px-6">
+
+          {/* Section title */}
+          <h2 className="mb-20 font-anton text-5xl text-gray-900 dark:text-white">
+            Kinh Nghiệm
+          </h2>
+
+          {/* Timeline */}
+          <div className="relative ml-32">
+
+            {/* Vertical line */}
+            <div className="absolute left-0 top-0 h-full w-1 bg-gray-200 dark:bg-gray-700" />
+
+            {/* Experience item */}
+            <div className="relative mb-16 pl-16">
+
+              {/* Timeline dot */}
+              <span
+                className="
+                  absolute
+                  -left-1.5
+                  top-2
+                  h-1
+                  w-4
+                  border
+                  border-white
+                  bg-primary
+                  dark:border-gray-900
+                "
+              />
+
+              {/* Date */}
+              <p className="mb-5 text-sm text-gray-500 dark:text-gray-400">
+                Tháng 2/2025 - 5/2025
+              </p>
+
+              {/* Header */}
+              <div className="flex items-start justify-between gap-10">
+
+                <div>
+                  {/* Company */}
+                  <p className="mb-2 font-anton text-xl text-gray-900 dark:text-white">
+                    Vietcons Education
+                  </p>
+
+                  {/* Position */}
+                  <h3 className="mb-4 font-anton text-4xl text-gray-900 dark:text-white">
+                    Thực tập sinh
+                  </h3>
+                </div>
+
+                {/* Time */}
+                <span
+                  className="
+                    rounded-full
+                    bg-gray-100
+                    px-5
+                    py-1.5
+                    text-sm
+                    text-gray-600
+                    dark:bg-gray-800
+                    dark:text-gray-300
+                  "
+                >
+                  3 tháng
+                </span>
+
+              </div>
+
+              {/* Description */}
+              {/* <p className="max-w-2xl leading-8 text-gray-600 dark:text-gray-300">
+                Thực hiện SEO website, tối ưu nội dung để cải thiện thứ hạng tìm kiếm.
+              </p> */}
+              <ul className="max-w-2xl space-y-3 text-gray-600 dark:text-gray-300">
+                <li className="flex gap-3 leading-7">
+                  <span className="mt-3 size-1.5 shrink-0 rounded-full bg-primary" />
+                  <span>
+                    Thực hiện SEO website, tối ưu nội dung để cải thiện thứ hạng tìm kiếm.
+                  </span>
+                </li>
+
+                <li className="flex gap-3 leading-7">
+                  <span className="mt-3 size-1.5 shrink-0 rounded-full bg-primary" />
+                  <span>
+                    Quản lý và cập nhật nội dung website, đảm bảo hệ thống hoạt động ổn định.
+                  </span>
+                </li>
+
+                <li className="flex gap-3 leading-7">
+                  <span className="mt-3 size-1.5 shrink-0 rounded-full bg-primary" />
+                  <span>
+                    Cài đặt và cấu hình phần mềm như AutoCAD, Photoshop và hệ điều hành Windows.
+                  </span>
+                </li>
+              </ul>
+             
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+      
     </>
   );
 }
