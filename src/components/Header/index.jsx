@@ -38,10 +38,12 @@ function Header() {
           <div className="h-15 flex items-center justify-center">
             <ul className="mt-3 p-2 bg-gray-light dark:bg-gray-dark rounded-2xl flex gap-3 items-center justify-center">
               <li className="nav-item hover:text-primary">
-                <House />
-                <span className="tooltip">
-                  Trang Chủ
-                </span>
+                <a href="#about">
+                  <House />
+                  <span className="tooltip">
+                    Trang Chủ
+                  </span>
+                </a>
               </li>
               <li className="nav-item hover:text-primary">
                 <WrenchOff />

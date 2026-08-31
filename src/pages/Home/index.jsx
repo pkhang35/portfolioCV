@@ -6,8 +6,15 @@ import Git from "../../assets/icons/git-svgrepo-com.svg";
 import React from "../../assets/icons/react-javascript-js-framework-facebook-svgrepo-com.svg";
 import JS from "../../assets/icons/js-svgrepo-com.svg";
 import Tailwind from "../../assets/icons/tailwind-svgrepo-com.svg";
+import Avatar from "../../assets/images/avatar.jpg";
+import HTML from "../../assets/icons/html-svgrepo-com.svg";
+import CSS from "../../assets/icons/css3-svgrepo-com.svg";
+import Bootstrap from "../../assets/icons/Bootstrap_logo.svg";
+import Sass from "../../assets/icons/sass-svgrepo-com.svg";
+import Ant from "../../assets/icons/ant-design-svgrepo-com.svg";
+import Redux from "../../assets/icons/redux-logo-svgrepo-com.svg";
 
-import {FileUser,ArrowRight} from "lucide-react";
+import { FileUser, ArrowRight, MapPin, Code2, Rocket } from "lucide-react";
 function Home() {
   return (
     <>
@@ -20,16 +27,11 @@ function Home() {
                 Xin chào, mình là Khang 👋
               </p>
               <h1 className="font-heading text-6xl leading-tight">
-                Fresher{" "}
-                <span className="text-primary">
-                  Frontend
-                </span>{" "}
-                Developer
+                Fresher <span className="text-primary">Frontend</span> Developer
               </h1>
               <p className="mt-6 max-w-xl text-lg leading-8 text-gray-600 dark:text-gray-300">
-                Mình xây dựng các website hiện đại,
-                responsive và tập trung vào trải nghiệm
-                người dùng.
+                Mình xây dựng các website hiện đại, responsive và tập trung vào
+                trải nghiệm người dùng.
               </p>
               <div className="mt-8 flex items-center gap-4">
                 <button
@@ -73,15 +75,14 @@ function Home() {
                     hover:-translate-y-1
                     hover:bg-primary
                     hover:text-white
-                  ">
-                  Xem CV của mình <FileUser className="size-5"/>
+                  "
+                >
+                  Xem CV của mình <FileUser className="size-5" />
                 </button>
               </div>
 
               <div className="mt-10">
-                <p className="mb-4 font-medium">
-                  Kết nối với mình
-                </p>
+                <p className="mb-4 font-medium">Kết nối với mình</p>
 
                 <ul className="flex items-center gap-5">
                   <li>
@@ -127,10 +128,7 @@ function Home() {
                   </li>
 
                   <li>
-                    <a
-                      href="mailto:pkhang353@gmail.com"
-                      aria-label="Email"
-                    >
+                    <a href="mailto:pkhang353@gmail.com" aria-label="Email">
                       <img
                         src={Mail}
                         alt="Email"
@@ -184,174 +182,431 @@ function Home() {
                 <div className="p-7">
                   <pre className=" overflow-hidden font-mono text-sm leading-7">
                     <code>
-
-                      <span className="text-primary">
-                        const
-                      </span>{" "}
-
-                      <span className="text-white">
-                        developer
-                      </span>{" "}
-
-                      <span className="text-gray-300">
-                        =
-                      </span>{" "}
-
-                      <span className="text-gray-300">
-                        {"{"}
-                      </span>
-
+                      <span className="text-primary">const</span>{" "}
+                      <span className="text-white">developer</span>{" "}
+                      <span className="text-gray-300">=</span>{" "}
+                      <span className="text-gray-300">{"{"}</span>
                       {"\n"}
-
                       {"  "}
-
-                      <span className="text-blue-300">
-                        name
-                      </span>
-
-                      <span className="text-gray-300">
-                        :
-                      </span>{" "}
-
-                      <span className="text-green-300">
-                        "Khang"
-                      </span>
-
-                      <span className="text-gray-300">
-                        ,
-                      </span>
-
+                      <span className="text-blue-300">name</span>
+                      <span className="text-gray-300">:</span>{" "}
+                      <span className="text-green-300">"Khang"</span>
+                      <span className="text-gray-300">,</span>
                       {"\n"}
-
                       {"  "}
-
-                      <span className="text-blue-300">
-                        role
-                      </span>
-
-                      <span className="text-gray-300">
-                        :
-                      </span>{" "}
-
+                      <span className="text-blue-300">role</span>
+                      <span className="text-gray-300">:</span>{" "}
                       <span className="text-green-300">
                         "Frontend React Developer"
                       </span>
-
-                      <span className="text-gray-300">
-                        ,
-                      </span>
-
+                      <span className="text-gray-300">,</span>
                       {"\n"}
-
                       {"  "}
-
-                      <span className="text-blue-300">
-                        skills
-                      </span>
-
-                      <span className="text-gray-300">
-                        : [
-                      </span>
-
+                      <span className="text-blue-300">skills</span>
+                      <span className="text-gray-300">: [</span>
                       {"\n"}
-
                       {"    "}
-
-                      <span className="text-green-300">
-                        "React"
-                      </span>
-
-                      <span className="text-gray-300">
-                        ,
-                      </span>
-
+                      <span className="text-green-300">"React"</span>
+                      <span className="text-gray-300">,</span>
                       {"\n"}
-
                       {"    "}
-
-                      <span className="text-green-300">
-                        "JavaScript"
-                      </span>
-
-                      <span className="text-gray-300">
-                        ,
-                      </span>
-
+                      <span className="text-green-300">"JavaScript"</span>
+                      <span className="text-gray-300">,</span>
                       {"\n"}
-
                       {"    "}
-
-                      <span className="text-green-300">
-                        "Tailwind CSS"
-                      </span>
-
-                      <span className="text-gray-300">
-                        ,
-                      </span>
-
+                      <span className="text-green-300">"Tailwind CSS"</span>
+                      <span className="text-gray-300">,</span>
                       {"\n"}
-
                       {"    "}
-
-                      <span className="text-green-300">
-                        "Git & GitHub"
-                      </span>
-
+                      <span className="text-green-300">"Git & GitHub"</span>
                       {"\n"}
-
                       {"  "}
-
-                      <span className="text-gray-300">
-                        ],
-                      </span>
-
+                      <span className="text-gray-300">],</span>
                       {"\n"}
-
                       {"  "}
-
-                      <span className="text-blue-300">
-                        passion
-                      </span>
-
-                      <span className="text-gray-300">
-                        :
-                      </span>{" "}
-
+                      <span className="text-blue-300">passion</span>
+                      <span className="text-gray-300">:</span>{" "}
                       <span className="text-green-300">
                         "Building modern web experiences 🚀"
                       </span>
-
                       {"\n"}
-
-                      <span className="text-gray-300">
-                        {"}"}
-                      </span>
+                      <span className="text-gray-300">{"}"}</span>
                     </code>
                   </pre>
                 </div>
               </div>
 
               <div className="absolute -bottom-10 left-1/2 flex -translate-x-1/2 items-center gap-5">
-
                 <div className="flex size-20 items-center justify-center rounded-full bg-white text-3xl shadow-xl">
-                  <img src={React} alt="react" className=" size-10"/>
+                  <img src={React} alt="react" className=" size-10" />
                 </div>
                 <div className="flex size-20 items-center justify-center rounded-full bg-white shadow-xl">
-                  <img src={JS} alt="js" className=" size-10"/>
+                  <img src={JS} alt="js" className=" size-10" />
                 </div>
 
                 <div className="flex size-20 items-center justify-center rounded-full bg-white shadow-xl">
-                  <img src={Tailwind} alt="tailwind css" className=" size-10"/>
+                  <img src={Tailwind} alt="tailwind css" className=" size-10" />
                 </div>
 
                 <div className="flex size-20 items-center justify-center rounded-full bg-white shadow-xl">
-                 <img src={Git} alt="git" className=" size-10"/>
+                  <img src={Git} alt="git" className=" size-10" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About */}
+      <section id="about" className="overflow-hidden py-24">
+        <div className="container mx-auto px-6">
+          <div className="grid grid-cols-2 items-center gap-20">
+            <div className="relative">
+              <div className="absolute -left-5 top-10 z-0 grid grid-cols-3 gap-4">
+                {Array.from({ length: 15 }).map((_, index) => (
+                  <span
+                    key={index}
+                    className="size-1.5 rounded-full bg-primary/60"
+                  />
+                ))}
+              </div>
+              <div className="absolute -bottom-8 left-6 h-52 w-64 rounded-3xl bg-primary/10"/>
+              <div className="relative z-10 mx-auto max-w-md overflow-hidden rounded-3xl shadow-xl">
+                <img
+                  src={Avatar}
+                  alt="Khang"
+                  className="aspect-[4/5] w-full object-cover"
+                />
+              </div>
+            </div>
+
+            <div>
+              <p className="mb-3 font-medium tracking-wider text-primary">
+                VỀ MÌNH
+              </p>
+              <h2 className="mb-6 font-anton text-5xl leading-tight text-gray-900 dark:text-white">
+                Mình là ai?
+              </h2>
+
+              <div className="max-w-xl ">
+                <p className="leading-8 text-gray-600 dark:text-gray-300">
+                  Mình là Khang, một Frontend React Developer tập trung vào việc
+                  xây dựng những giao diện web hiện đại, responsive và dễ sử
+                  dụng.
+                </p>
+              </div>
+
+              <div className="mt-10 grid grid-cols-3 gap-4">
+                <div
+                  className="
+                  rounded-2xl
+                  border
+                  border-gray-100
+                  bg-white
+                  p-5
+                  shadow-lg
+                  shadow-gray-200/40
+                  transition-transform
+                  duration-300
+                  hover:-translate-y-1
+                  dark:border-gray-700
+                  dark:bg-gray-dark
+                  dark:shadow-none
+                ">
+                  <div
+                    className="
+                    mb-4
+                    flex
+                    size-12
+                    items-center
+                    justify-center
+                    rounded-xl
+                    bg-primary/10
+                  "
+                  >
+                    <MapPin className="size-6 text-primary" />
+                  </div>
+
+                  <p className="mb-1 text-sm text-gray-500 dark:text-gray-400">
+                    Địa chỉ
+                  </p>
+
+                  <h3 className="font-medium text-gray-900 dark:text-white">
+                    Hồ Chí Minh, Việt Nam
+                  </h3>
                 </div>
 
+                <div
+                  className="
+                  rounded-2xl
+                  border
+                  border-gray-100
+                  bg-white
+                  p-5
+                  shadow-lg
+                  shadow-gray-200/40
+                  transition-transform
+                  duration-300
+                  hover:-translate-y-1
+                  dark:border-gray-700
+                  dark:bg-gray-dark
+                  dark:shadow-none
+                "
+                >
+                  <div
+                    className="
+                    mb-4
+                    flex
+                    size-12
+                    items-center
+                    justify-center
+                    rounded-xl
+                    bg-green-100
+                    dark:bg-green-500/10
+                  "
+                  >
+                    <Code2 className="size-6 text-green-500" />
+                  </div>
+                  <p className="mb-1 text-sm text-gray-500 dark:text-gray-400">
+                    Chuyên môn
+                  </p>
+
+                  <h3 className="font-medium text-gray-900 dark:text-white">
+                    Frontend
+                  </h3>
+                </div>
+
+                <div
+                  className="
+                  rounded-2xl
+                  border
+                  border-gray-100
+                  bg-white
+                  p-5
+                  shadow-lg
+                  shadow-gray-200/40
+                  transition-transform
+                  duration-300
+                  hover:-translate-y-1
+                  dark:border-gray-700
+                  dark:bg-gray-dark
+                  dark:shadow-none
+                "
+                >
+                
+                  <div
+                    className="
+                    mb-4
+                    flex
+                    size-12
+                    items-center
+                    justify-center
+                    rounded-xl
+                    bg-orange-100
+                    dark:bg-orange-500/10
+                  "
+                  >
+                    <Rocket className="size-6 text-orange-500" />
+                  </div>
+
+                
+                  <p className="mb-1 text-sm text-gray-500 dark:text-gray-400">
+                    Hiện tại
+                  </p>
+
+                  <h3 className="font-medium text-gray-900 dark:text-white">
+                    React
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Skills */}
+      <section id="skills" className="py-24">
+        <div className="container mx-auto px-6">
+
+          {/* Section title */}
+          <h2 className="mb-16 text-5xl text-gray-900 dark:text-white">
+            Kỹ năng chuyên môn
+          </h2>
+
+          {/* Frontend */}
+          <div className="grid grid-cols-[280px_1fr] border-b border-gray-200 py-8 dark:border-gray-700">
+
+            {/* Category */}
+            <h3 className=" text-4xl text-gray-900 dark:text-white">
+              Frontend
+            </h3>
+
+            {/* Technologies */}
+            <div className="flex flex-wrap items-center gap-x-10 gap-y-8">
+
+              {/* HTML */}
+              <div className="flex items-center gap-3">
+                <img
+                  src={HTML}
+                  alt="HTML"
+                  className="size-9 object-contain"
+                />
+                <span className="text-lg text-gray-800 dark:text-gray-200">
+                  HTML
+                </span>
+              </div>
+
+              {/* CSS */}
+              <div className="flex items-center gap-3">
+                <img
+                  src={CSS}
+                  alt="CSS"
+                  className="size-9 object-contain"
+                />
+                <span className="text-lg text-gray-800 dark:text-gray-200">
+                  CSS
+                </span>
+              </div>
+              {/* Redux */}
+              <div className="flex items-center gap-3">
+                <img
+                  src={Bootstrap}
+                  alt="Redux"
+                  className="size-9 object-contain"
+                />
+                <span className="text-lg text-gray-800 dark:text-gray-200">
+                  Bootstrap
+                </span>
+              </div>
+
+              {/* JavaScript */}
+              <div className="flex items-center gap-3">
+                <img
+                  src={JS}
+                  alt="JavaScript"
+                  className="size-9 object-contain"
+                />
+                <span className="text-lg text-gray-800 dark:text-gray-200">
+                  JavaScript
+                </span>
+              </div>
+
+              {/* React */}
+              <div className="flex items-center gap-3">
+                <img
+                  src={React}
+                  alt="React"
+                  className="size-9 object-contain"
+                />
+                <span className="text-lg text-gray-800 dark:text-gray-200">
+                  React
+                </span>
+              </div>
+
+              {/* Tailwind */}
+              <div className="flex items-center gap-3">
+                <img
+                  src={Tailwind}
+                  alt="Tailwind CSS"
+                  className="size-9 object-contain"
+                />
+                <span className="text-lg text-gray-800 dark:text-gray-200">
+                  Tailwind CSS
+                </span>
+              </div>
+              {/* Sass */}
+              <div className="flex items-center gap-3">
+                <img
+                  src={Sass}
+                  alt="Redux"
+                  className="size-9 object-contain"
+                />
+                <span className="text-lg text-gray-800 dark:text-gray-200">
+                  Sass
+                </span>
+              </div>
+              {/* Ant */}
+              <div className="flex items-center gap-3">
+                <img
+                  src={Ant}
+                  alt="Redux"
+                  className="size-9 object-contain"
+                />
+                <span className="text-lg text-gray-800 dark:text-gray-200">
+                  Ant Design
+                </span>
+              </div>
+              {/* Redux */}
+              <div className="flex items-center gap-3">
+                <img
+                  src={Redux}
+                  alt="Redux"
+                  className="size-9 object-contain"
+                />
+                <span className="text-lg text-gray-800 dark:text-gray-200">
+                  Redux
+                </span>
               </div>
 
             </div>
+          </div>
 
+          {/* Tools */}
+          <div className="grid grid-cols-[280px_1fr] border-b border-gray-200 py-8 dark:border-gray-700">
+
+            <h3 className="font-anton text-4xl text-gray-900 dark:text-white">
+              Tools
+            </h3>
+
+            <div className="flex items-center gap-10">
+
+              <div className="flex items-center gap-3">
+                <img
+                  src={Git}
+                  alt="Git"
+                  className="size-9 object-contain"
+                />
+                <span className="text-lg text-gray-800 dark:text-gray-200">
+                  Git
+                </span>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <img
+                  src={JS}
+                  alt="Postman"
+                  className="size-9 object-contain"
+                />
+                <span className="text-lg text-gray-800 dark:text-gray-200">
+                  Postman
+                </span>
+              </div>
+
+            </div>
+          </div>
+
+          {/* Design */}
+          <div className="grid grid-cols-[280px_1fr] py-8">
+
+            <h3 className="font-anton text-4xl text-gray-900 dark:text-white">
+              Design
+            </h3>
+
+            <div className="flex items-center gap-10">
+
+              <div className="flex items-center gap-3">
+                <img
+                  src={JS}
+                  alt="Figma"
+                  className="size-9 object-contain"
+                />
+
+                <span className="text-lg text-gray-800 dark:text-gray-200">
+                  Figma
+                </span>
+              </div>
+
+            </div>
           </div>
 
         </div>
