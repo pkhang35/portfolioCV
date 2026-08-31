@@ -13,6 +13,11 @@ import Bootstrap from "../../assets/icons/Bootstrap_logo.svg";
 import Sass from "../../assets/icons/sass-svgrepo-com.svg";
 import Ant from "../../assets/icons/ant-design-svgrepo-com.svg";
 import Redux from "../../assets/icons/redux-logo-svgrepo-com.svg";
+import Docker from "../../assets/icons/docker-icon-svgrepo-com.svg";
+import Postman from "../../assets/icons/postman-icon.svg";
+import Figma from "../../assets/icons/figma-svgrepo-com.svg";
+import GPT from "../../assets/icons/chatgpt-icon.svg";
+import Claude from "../../assets/icons/claude-ai-icon.svg";
 
 import { FileUser, ArrowRight, MapPin, Code2, Rocket } from "lucide-react";
 function Home() {
@@ -434,7 +439,7 @@ function Home() {
           </h2>
 
           {/* Frontend */}
-          <div className="grid grid-cols-[280px_1fr] border-b border-gray-200 py-8 dark:border-gray-700">
+          <div className="grid grid-cols-[400px_1fr] border-b border-gray-200 py-8 dark:border-gray-700">
 
             {/* Category */}
             <h3 className=" text-4xl text-gray-900 dark:text-white">
@@ -449,9 +454,9 @@ function Home() {
                 <img
                   src={HTML}
                   alt="HTML"
-                  className="size-9 object-contain"
+                  className="size-15 object-contain"
                 />
-                <span className="text-lg text-gray-800 dark:text-gray-200">
+                <span className="text-2xl text-gray-800 dark:text-gray-200">
                   HTML
                 </span>
               </div>
@@ -461,9 +466,9 @@ function Home() {
                 <img
                   src={CSS}
                   alt="CSS"
-                  className="size-9 object-contain"
+                  className="size-15 object-contain"
                 />
-                <span className="text-lg text-gray-800 dark:text-gray-200">
+                <span className="text-2xl text-gray-800 dark:text-gray-200">
                   CSS
                 </span>
               </div>
@@ -471,10 +476,10 @@ function Home() {
               <div className="flex items-center gap-3">
                 <img
                   src={Bootstrap}
-                  alt="Redux"
-                  className="size-9 object-contain"
+                  alt="Bootstrap"
+                  className="size-15 object-contain"
                 />
-                <span className="text-lg text-gray-800 dark:text-gray-200">
+                <span className="text-2xl text-gray-800 dark:text-gray-200">
                   Bootstrap
                 </span>
               </div>
@@ -484,9 +489,9 @@ function Home() {
                 <img
                   src={JS}
                   alt="JavaScript"
-                  className="size-9 object-contain"
+                  className="size-15 object-contain"
                 />
-                <span className="text-lg text-gray-800 dark:text-gray-200">
+                <span className="text-2xl text-gray-800 dark:text-gray-200">
                   JavaScript
                 </span>
               </div>
@@ -496,9 +501,9 @@ function Home() {
                 <img
                   src={React}
                   alt="React"
-                  className="size-9 object-contain"
+                  className="size-15 object-contain"
                 />
-                <span className="text-lg text-gray-800 dark:text-gray-200">
+                <span className="text-2xl text-gray-800 dark:text-gray-200">
                   React
                 </span>
               </div>
@@ -508,9 +513,9 @@ function Home() {
                 <img
                   src={Tailwind}
                   alt="Tailwind CSS"
-                  className="size-9 object-contain"
+                  className="size-15 object-contain"
                 />
-                <span className="text-lg text-gray-800 dark:text-gray-200">
+                <span className="text-2xl text-gray-800 dark:text-gray-200">
                   Tailwind CSS
                 </span>
               </div>
@@ -518,10 +523,10 @@ function Home() {
               <div className="flex items-center gap-3">
                 <img
                   src={Sass}
-                  alt="Redux"
-                  className="size-9 object-contain"
+                  alt="Sass"
+                  className="size-15 object-contain"
                 />
-                <span className="text-lg text-gray-800 dark:text-gray-200">
+                <span className="text-2xl text-gray-800 dark:text-gray-200">
                   Sass
                 </span>
               </div>
@@ -529,10 +534,10 @@ function Home() {
               <div className="flex items-center gap-3">
                 <img
                   src={Ant}
-                  alt="Redux"
-                  className="size-9 object-contain"
+                  alt="Ant Design"
+                  className="size-15 object-contain"
                 />
-                <span className="text-lg text-gray-800 dark:text-gray-200">
+                <span className="text-2xl text-gray-800 dark:text-gray-200">
                   Ant Design
                 </span>
               </div>
@@ -541,9 +546,9 @@ function Home() {
                 <img
                   src={Redux}
                   alt="Redux"
-                  className="size-9 object-contain"
+                  className="size-15 object-contain"
                 />
-                <span className="text-lg text-gray-800 dark:text-gray-200">
+                <span className="text-2xl text-gray-800 dark:text-gray-200">
                   Redux
                 </span>
               </div>
@@ -552,33 +557,66 @@ function Home() {
           </div>
 
           {/* Tools */}
-          <div className="grid grid-cols-[280px_1fr] border-b border-gray-200 py-8 dark:border-gray-700">
+          <div className="grid grid-cols-[400px_1fr] border-b border-gray-200 py-8 dark:border-gray-700">
 
             <h3 className="font-anton text-4xl text-gray-900 dark:text-white">
-              Tools
+              Tools & AI
             </h3>
 
-            <div className="flex items-center gap-10">
+            <div className="flex flex-wrap items-center gap-10">
 
               <div className="flex items-center gap-3">
                 <img
                   src={Git}
                   alt="Git"
-                  className="size-9 object-contain"
+                  className="size-15 object-contain"
                 />
-                <span className="text-lg text-gray-800 dark:text-gray-200">
+                <span className="text-2xl text-gray-800 dark:text-gray-200">
                   Git
                 </span>
               </div>
 
               <div className="flex items-center gap-3">
                 <img
-                  src={JS}
-                  alt="Postman"
-                  className="size-9 object-contain"
+                  src={Docker}
+                  alt="Docker"
+                  className="size-15 object-contain"
                 />
-                <span className="text-lg text-gray-800 dark:text-gray-200">
+                <span className="text-2xl text-gray-800 dark:text-gray-200">
+                  Docker
+                </span>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <img
+                  src={Postman}
+                  alt="Postman"
+                  className="size-15 object-contain"
+                />
+                <span className="text-2xl text-gray-800 dark:text-gray-200">
                   Postman
+                </span>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <img
+                  src={GPT}
+                  alt="Chat GPT"
+                  className="size-15 object-contain"
+                />
+                <span className="text-2xl text-gray-800 dark:text-gray-200">
+                  Chat GPT
+                </span>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <img
+                  src={Claude}
+                  alt="Claude Code"
+                  className="size-15 object-contain"
+                />
+                <span className="text-2xl text-gray-800 dark:text-gray-200">
+                  Claude Code
                 </span>
               </div>
 
@@ -586,7 +624,7 @@ function Home() {
           </div>
 
           {/* Design */}
-          <div className="grid grid-cols-[280px_1fr] py-8">
+          <div className="grid grid-cols-[400px_1fr] py-8">
 
             <h3 className="font-anton text-4xl text-gray-900 dark:text-white">
               Design
@@ -596,12 +634,12 @@ function Home() {
 
               <div className="flex items-center gap-3">
                 <img
-                  src={JS}
+                  src={Figma}
                   alt="Figma"
-                  className="size-9 object-contain"
+                  className="size-15 object-contain"
                 />
 
-                <span className="text-lg text-gray-800 dark:text-gray-200">
+                <span className="text-2xl text-gray-800 dark:text-gray-200">
                   Figma
                 </span>
               </div>

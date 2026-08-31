@@ -46,10 +46,13 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item hover:text-primary">
-                <WrenchOff />
-                <span className="tooltip">
-                  Kỹ Năng
-                </span>
+                <a href="#skills">
+                  <WrenchOff />
+                  <span className="tooltip">
+                    Kỹ Năng
+                  </span>
+                </a>
+            
               </li>
               <li className="nav-item hover:text-primary">
                 <Folder />
