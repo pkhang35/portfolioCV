@@ -18,8 +18,9 @@ import Postman from "../../assets/icons/postman-icon.svg";
 import Figma from "../../assets/icons/figma-svgrepo-com.svg";
 import GPT from "../../assets/icons/chatgpt-icon.svg";
 import Claude from "../../assets/icons/claude-ai-icon.svg";
-
-import { FileUser, ArrowRight, MapPin, Code2, Rocket } from "lucide-react";
+import DevQuiz from "../../assets/images/devquiz.jpg";
+import {Link} from "react-router-dom"
+import { FileUser, ArrowRight, MapPin, Code2, Rocket ,PlayCircle, ExternalLink} from "lucide-react";
 function Home() {
   return (
     <>
@@ -754,7 +755,225 @@ function Home() {
           </div>
         </div>
       </section>
+
+      {/* Projects */}
+      <section id="projects" className="py-24">
+        <div className="container mx-auto px-6">
+          <h2 className="mb-14 text-5xl text-gray-900 dark:text-white">
+            Các Dự Án Được Chọn
+          </h2>
+          <div className="grid grid-cols-3 gap-6">
+          <article
+            className="
+              group
+              overflow-hidden
+              rounded-2xl
+              border
+              border-gray-200
+              bg-white
+              shadow-sm
+              transition-all
+              duration-300
+              hover:-translate-y-2
+              hover:shadow-2xl
+              hover:shadow-primary/10
+              dark:border-gray-700
+              dark:bg-gray-dark
+              dark:hover:shadow-none
+            "
+          >
+            <div className="relative h-48 overflow-hidden bg-gray-200 dark:bg-gray-800">
+              <Link to="/devquiz" className="block h-full">
+                <img
+                  src={DevQuiz}
+                  alt="Project 1"
+                  className="
+                    h-full
+                    w-full
+                    object-cover
+                    transition-transform
+                    duration-500
+                    ease-out
+                    group-hover:scale-105
+                  "
+                />
+
+                <div
+                  className="
+                    absolute
+                    inset-0
+                    bg-primary/0
+                    transition-colors
+                    duration-300
+                    group-hover:bg-primary/10
+                  "
+                />
+                <div
+                  className="
+                    absolute
+                    right-3
+                    top-3
+                    flex
+                    size-10
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-white/90
+                    text-primary
+                    opacity-0
+                    shadow-lg
+                    backdrop-blur-sm
+                    transition-all
+                    duration-300
+                    group-hover:opacity-100
+                    group-hover:translate-x-0
+                    translate-x-2
+                    dark:bg-gray-900/90
+                  "
+                >
+                  <ExternalLink className="size-5" />
+                </div>
+
+              </Link>
+            </div>
+            <div className="p-7">
+              <Link to="/devquiz">
+                <h3
+                  className="
+                    mb-4
+                    text-2xl
+                    text-gray-900
+                    transition-colors
+                    duration-300
+                    group-hover:text-primary
+                    dark:text-white
+                  "
+                >
+                  DevQuiz
+                </h3>
+                <p className="mb-5 leading-7 text-gray-600 dark:text-gray-300">
+                  A project description is a foundational document that explains
+                  what a project is, why it matters, and how your team will execute it.
+                </p>
+                <div className="mb-7 flex flex-wrap gap-3">
+                  <span
+                    className="
+                      rounded-full
+                      bg-gray-100
+                      px-4
+                      py-1
+                      text-sm
+                      transition-colors
+                      duration-300
+                      group-hover:bg-primary/10
+                      dark:bg-gray-700
+                    "
+                  >
+                    React
+                  </span>
+
+                  <span
+                    className="
+                      rounded-full
+                      bg-gray-100
+                      px-4
+                      py-1
+                      text-sm
+                      transition-colors
+                      duration-300
+                      group-hover:bg-primary/10
+                      dark:bg-gray-700
+                    "
+                  >
+                    Ant Design
+                  </span>
+
+                  <span
+                    className="
+                      rounded-full
+                      bg-gray-100
+                      px-4
+                      py-1
+                      text-sm
+                      transition-colors
+                      duration-300
+                      group-hover:bg-primary/10
+                      dark:bg-gray-700
+                    "
+                  >
+                    Sass
+                  </span>
+
+                </div>
+              </Link>
+
+              
+
+            
+              <div className="flex items-center justify-between">
+                <a
+                  href="#"
+                  className="
+                    flex
+                    items-center
+                    gap-2
+                    rounded-full
+                    bg-gray-100
+                    px-4
+                    py-2
+                    text-sm
+                    text-gray-800
+                    transition-all
+                    duration-300
+                    hover:bg-primary
+                    hover:text-white
+                    dark:bg-gray-700
+                    dark:text-white
+                    dark:hover:bg-primary
+                  "
+                >
+                  <PlayCircle className="size-4" />
+                  Video demo
+                </a>
+                <a
+                  href="#"
+                  className="
+                    flex
+                    items-center
+                    gap-2
+                    rounded-full
+                    bg-gray-100
+                    px-4
+                    py-2
+                    text-sm
+                    text-gray-800
+                    transition-all
+                    duration-300
+                    hover:bg-primary
+                    hover:text-white
+                    dark:bg-gray-700
+                    dark:text-white
+                    dark:hover:bg-primary
+                  "
+                >
+                  <img
+                    src={Github}
+                    alt="GitHub"
+                    className="size-4"
+                  />
+
+                  GitHub
+                </a>
+
+              </div>
+
+            </div>
+          </article>
+          </div>
+        </div>
+      </section>
       
+
     </>
   );
 }
