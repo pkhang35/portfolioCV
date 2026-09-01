@@ -972,7 +972,190 @@ function Home() {
           </div>
         </div>
       </section>
-      
+
+      {/* Education */}         
+      <section id="education" className="py-24">
+        <div className="container mx-auto px-6">
+          <h2 className="mb-14 text-5xl text-gray-900 dark:text-white">
+            Học Vấn
+          </h2>
+          <div className="mx-auto max-w-4xl">
+            <div className="group relative pl-10">
+              <div
+                className="
+                  absolute
+                  left-0
+                  top-0
+                  h-full
+                  w-1
+                  bg-gray-200
+                  transition-colors
+                  duration-500
+                  group-hover:bg-primary
+                  dark:bg-gray-700
+                  dark:group-hover:bg-primary
+                "
+              />
+              <div
+                className="
+                  absolute
+                  -left-1
+                  top-0
+                  h-1
+                  w-3
+                  bg-gray-300
+                  transition-all
+                  duration-300
+                  group-hover:bg-primary
+                  dark:bg-gray-600
+                "
+              />
+              <span
+                className="
+                  absolute
+                  left-4
+                  top-0
+                  rounded-full
+                  bg-gray-100
+                  px-3
+                  py-1
+                  text-sm
+                  text-gray-500
+                  transition-all
+                  duration-300
+                  group-hover:bg-primary/10
+                  group-hover:text-primary
+                  dark:bg-gray-800
+                  dark:text-gray-400
+                "
+              >
+                2022 - 2025
+              </span>
+              <div
+                className="
+                  ml-8
+                  pt-16
+                  transition-transform
+                  duration-500
+                  group-hover:translate-x-2
+                "
+              >
+                <Link
+                  to="/education"
+                  className="group/link flex items-start justify-between gap-6"
+                >
+                  <h3
+                    className="
+                      font-anton
+                      text-4xl
+                      text-gray-900
+                      transition-colors
+                      duration-300
+                      group-hover/link:text-primary
+                      dark:text-white
+                    "
+                  >
+                    Công Nghệ Thông Tin
+                  </h3>
+                  <div
+                    className="
+                      flex
+                      size-10
+                      shrink-0
+                      items-center
+                      justify-center
+                      rounded-lg
+                      text-gray-500
+                      transition-all
+                      duration-300
+                      group-hover/link:bg-primary/10
+                      group-hover/link:text-primary
+                      dark:text-gray-300
+                    "
+                  >
+                    <ExternalLink className="size-6" />
+                  </div>
+                </Link>
+                <Link to="/education">
+                  <h4
+                    className="
+                      mt-3
+                      font-anton
+                      text-2xl
+                    text-gray-900
+                    dark:text-white
+                      "
+                      >
+                        Trường Cao Đẳng Kỹ Thuật Cao Thắng
+                      </h4>
+                      <p
+                        className="
+                          mt-3
+                          text-base
+                          text-gray-600
+                          transition-colors
+                          duration-300
+                          group-hover:text-gray-800
+                          dark:text-gray-300
+                          dark:group-hover:text-gray-200
+                        "
+                      >
+                        Chuyên ngành: Lập trình web
+                      </p>
+                </Link>
+              
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* Contact */}
+      <section className="py-24">
+        <div className="container mx-auto px-6">
+          <h2 className="text-5xl text-gray-900 dark:text-white ">
+            Liên Hệ
+          </h2>
+          <div className="mt-12 flex justify-center">
+            <div className="text-center">
+              <p
+                className="
+                  mx-auto
+                  max-w-xl
+                  text-lg
+                  leading-7
+                  text-gray-700
+                  dark:text-gray-300
+                "
+              >
+                Bạn có công việc hoặc dự án muốn trao đổi ?
+                <br />
+                Hãy liên hệ với mình.
+              </p>
+              <a
+                href="mailto:pkhang353@gmail.com"
+                className="
+                  mt-10
+                  font-heading
+                  inline-block
+                  text-gray-900
+                  transition-all
+                  duration-300
+                  hover:scale-105
+                  hover:text-primary
+                  text-5xl
+                  dark:text-white
+                "
+              >
+                Pkhang353@gmail.com
+              </a>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
 
     </>
   );
