@@ -290,7 +290,7 @@ function Home() {
               <p className="mb-3 font-medium tracking-wider text-primary">
                 VỀ MÌNH
               </p>
-              <h2 className="mb-6 font-anton text-5xl leading-tight text-gray-900 dark:text-white">
+              <h2 className="mb-6 text-5xl leading-tight text-gray-900 dark:text-white">
                 Mình là ai?
               </h2>
 
@@ -560,7 +560,7 @@ function Home() {
           {/* Tools */}
           <div className="grid grid-cols-[400px_1fr] border-b border-gray-200 py-8 dark:border-gray-700">
 
-            <h3 className="font-anton text-4xl text-gray-900 dark:text-white">
+            <h3 className="text-4xl text-gray-900 dark:text-white">
               Tools & AI
             </h3>
 
@@ -627,7 +627,7 @@ function Home() {
           {/* Design */}
           <div className="grid grid-cols-[400px_1fr] py-8">
 
-            <h3 className="font-anton text-4xl text-gray-900 dark:text-white">
+            <h3 className="text-4xl text-gray-900 dark:text-white">
               Design
             </h3>
 
@@ -656,7 +656,7 @@ function Home() {
         <div className="container mx-auto px-6">
 
           {/* Section title */}
-          <h2 className="mb-20 font-anton text-5xl text-gray-900 dark:text-white">
+          <h2 className="mb-20 text-5xl text-gray-900 dark:text-white">
             Kinh Nghiệm
           </h2>
 
@@ -694,12 +694,12 @@ function Home() {
 
                 <div>
                   {/* Company */}
-                  <p className="mb-2 font-anton text-xl text-gray-900 dark:text-white">
+                  <p className="mb-2 text-xl text-gray-900 dark:text-white">
                     Vietcons Education
                   </p>
 
                   {/* Position */}
-                  <h3 className="mb-4 font-anton text-4xl text-gray-900 dark:text-white">
+                  <h3 className="mb-4 text-4xl text-gray-900 dark:text-white">
                     Thực tập sinh
                   </h3>
                 </div>
@@ -1046,7 +1046,6 @@ function Home() {
                 >
                   <h3
                     className="
-                      font-anton
                       text-4xl
                       text-gray-900
                       transition-colors
@@ -1080,7 +1079,6 @@ function Home() {
                   <h4
                     className="
                       mt-3
-                      font-anton
                       text-2xl
                     text-gray-900
                     dark:text-white

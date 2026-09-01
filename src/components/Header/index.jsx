@@ -33,9 +33,9 @@ function Header() {
   };
   return (
     <>
-      <header>
+      <header className="relative">
         <div className="container mx-auto">
-          <div className="h-15 flex items-center justify-center">
+          <div className="fixed left-1/2 top-2 z-100 -translate-x-1/2 h-15 flex items-center justify-center">
             <ul className="mt-3 p-2 bg-gray-light dark:bg-gray-dark rounded-2xl flex gap-3 items-center justify-center">
               <li className="nav-item hover:text-primary">
                 <a href="#about">
@@ -54,24 +54,33 @@ function Header() {
                 </a>
             
               </li>
+                <li className="nav-item hover:text-primary">
+                <a href="#experience">
+                  <ChartColumnIncreasing />
+                  <span className="tooltip">
+                    Kinh Nghiệm
+                  </span>
+                </a>
+              </li>
+
               <li className="nav-item hover:text-primary">
-                <Folder />
+                <a href="#projects">
+                   <Folder />
                  <span className="tooltip">
                   Dự Án
                 </span>
+                </a>
               </li>
+            
               <li className="nav-item hover:text-primary">
-                <ChartColumnIncreasing />
-                <span className="tooltip">
-                  Kinh Nghiệm
-                </span>
+                <a href="#education">
+                  <GraduationCap />
+                  <span className="tooltip">
+                    Học Vấn
+                  </span>
+                </a>
               </li>
-              <li className="nav-item hover:text-primary">
-                <GraduationCap />
-                 <span className="tooltip">
-                  Học Vấn
-                </span>
-              </li>
+              
               <li className="nav-item hover:text-primary">
                 <Languages />
                  <span className="tooltip">
