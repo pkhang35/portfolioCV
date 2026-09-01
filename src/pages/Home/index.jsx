@@ -79,58 +79,62 @@ function Home() {
                   sm:gap-4
                 "
               >
-                <button
-                  type="button"
-                  className="
-                    flex
-                    items-center
-                    gap-2
-                    rounded-lg
-                    border
-                    border-primary
-                    bg-primary
-                    px-5
-                    py-3
-                    text-sm
-                    font-medium
-                    text-white
-                    transition-all
-                    duration-200
-                    hover:-translate-y-1
-                    hover:shadow-lg
-                    sm:px-6
-                    sm:text-base
-                  "
-                >
-                  Xem dự án
-                  <ArrowRight className="size-5" />
-                </button>
-                <button
-                  type="button"
-                  className="
-                    flex
-                    items-center
-                    gap-2
-                    rounded-lg
-                    border
-                    border-primary
-                    px-5
-                    py-3
-                    text-sm
-                    font-medium
-                    text-primary
-                    transition-all
-                    duration-200
-                    hover:-translate-y-1
-                    hover:bg-primary
-                    hover:text-white
-                    sm:px-6
-                    sm:text-base
-                  "
-                >
-                  Xem CV của mình
-                  <FileUser className="size-5" />
-                </button>
+              <a
+                href="#projects"
+                className="
+                  flex
+                  items-center
+                  gap-2
+                  rounded-lg
+                  border
+                  border-primary
+                  bg-primary
+                  px-5
+                  py-3
+                  text-sm
+                  font-medium
+                  text-white
+                  transition-all
+                  duration-200
+                  hover:-translate-y-1
+                  hover:shadow-lg
+                  sm:px-6
+                  sm:text-base
+                "
+              >
+                Xem dự án
+                <ArrowRight className="size-5" />
+              </a>
+
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="
+                  flex
+                  items-center
+                  gap-2
+                  rounded-lg
+                  border
+                  border-primary
+                  px-5
+                  py-3
+                  text-sm
+                  font-medium
+                  text-primary
+                  transition-all
+                  duration-200
+                  hover:-translate-y-1
+                  hover:bg-primary
+                  hover:text-white
+                  sm:px-6
+                  sm:text-base
+                "
+              >
+                Xem CV của mình
+                <FileUser className="size-5" />
+              </a>
+                
               </div>
               <div className="mt-10">
                 <p className="mb-4 font-medium">
@@ -387,7 +391,7 @@ function Home() {
       </section>
 
       {/* About */}
-      <section id="about" className="overflow-hidden py-16 sm:py-20 lg:py-24">
+      <section id="about" className="overflow-hidden py-16 sm:py-20 lg:py-24" data-aos="fade-up" >
         <div className="container mx-auto px-6">
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
             <div className="relative">
@@ -436,7 +440,7 @@ function Home() {
                 <img
                   src={Avatar}
                   alt="Khang"
-                  className="aspect-[4/5] w-full object-cover"
+                  className="aspect-4/5 w-full object-cover"
                 />
               </div>
             </div>
@@ -600,7 +604,7 @@ function Home() {
       </section>
 
       {/* Skills */}
-      <section id="skills" className="py-16 md:py-24">
+      <section id="skills" className="py-16 md:py-24" data-aos="fade-up">
         <div className="container mx-auto px-6">
           <h2 className="mb-10 font-anton text-4xl text-gray-900 dark:text-white md:mb-16 md:text-5xl">
             Kỹ Năng Chuyên Môn
@@ -617,15 +621,10 @@ function Home() {
               lg:grid-cols-[400px_1fr]
             "
           >
-            {/* Category */}
             <h3 className="text-3xl text-gray-900 dark:text-white md:text-4xl">
               Frontend
             </h3>
-
-            {/* Technologies */}
             <div className="flex flex-wrap items-center gap-x-6 gap-y-6 md:gap-x-10 md:gap-y-8">
-
-              {/* HTML */}
               <div className="flex items-center gap-2 md:gap-3">
                 <img
                   src={HTML}
@@ -636,8 +635,6 @@ function Home() {
                   HTML
                 </span>
               </div>
-
-              {/* CSS */}
               <div className="flex items-center gap-2 md:gap-3">
                 <img
                   src={CSS}
@@ -648,8 +645,6 @@ function Home() {
                   CSS
                 </span>
               </div>
-
-              {/* Bootstrap */}
               <div className="flex items-center gap-2 md:gap-3">
                 <img
                   src={Bootstrap}
@@ -660,8 +655,6 @@ function Home() {
                   Bootstrap
                 </span>
               </div>
-
-              {/* JavaScript */}
               <div className="flex items-center gap-2 md:gap-3">
                 <img
                   src={JS}
@@ -672,8 +665,6 @@ function Home() {
                   JavaScript
                 </span>
               </div>
-
-              {/* React */}
               <div className="flex items-center gap-2 md:gap-3">
                 <img
                   src={React}
@@ -684,8 +675,6 @@ function Home() {
                   React
                 </span>
               </div>
-
-              {/* Tailwind */}
               <div className="flex items-center gap-2 md:gap-3">
                 <img
                   src={Tailwind}
@@ -696,8 +685,6 @@ function Home() {
                   Tailwind CSS
                 </span>
               </div>
-
-              {/* Sass */}
               <div className="flex items-center gap-2 md:gap-3">
                 <img
                   src={Sass}
@@ -708,8 +695,6 @@ function Home() {
                   Sass
                 </span>
               </div>
-
-              {/* Ant Design */}
               <div className="flex items-center gap-2 md:gap-3">
                 <img
                   src={Ant}
@@ -720,8 +705,6 @@ function Home() {
                   Ant Design
                 </span>
               </div>
-
-              {/* Redux */}
               <div className="flex items-center gap-2 md:gap-3">
                 <img
                   src={Redux}
@@ -751,40 +734,30 @@ function Home() {
             </h3>
 
             <div className="flex flex-wrap items-center gap-x-6 gap-y-6 md:gap-10">
-
-              {/* Git */}
               <div className="flex items-center gap-2 md:gap-3">
                 <img src={Git} alt="Git" className="size-10 object-contain md:size-15" />
                 <span className="text-lg text-gray-800 dark:text-gray-200 md:text-2xl">
                   Git
                 </span>
               </div>
-
-              {/* Docker */}
               <div className="flex items-center gap-2 md:gap-3">
                 <img src={Docker} alt="Docker" className="size-10 object-contain md:size-15" />
                 <span className="text-lg text-gray-800 dark:text-gray-200 md:text-2xl">
                   Docker
                 </span>
               </div>
-
-              {/* Postman */}
               <div className="flex items-center gap-2 md:gap-3">
                 <img src={Postman} alt="Postman" className="size-10 object-contain md:size-15" />
                 <span className="text-lg text-gray-800 dark:text-gray-200 md:text-2xl">
                   Postman
                 </span>
               </div>
-
-              {/* ChatGPT */}
               <div className="flex items-center gap-2 md:gap-3">
                 <img src={GPT} alt="Chat GPT" className="size-10 object-contain md:size-15" />
                 <span className="text-lg text-gray-800 dark:text-gray-200 md:text-2xl">
                   Chat GPT
                 </span>
               </div>
-
-              {/* Claude */}
               <div className="flex items-center gap-2 md:gap-3">
                 <img src={Claude} alt="Claude Code" className="size-10 object-contain md:size-15" />
                 <span className="text-lg text-gray-800 dark:text-gray-200 md:text-2xl">
@@ -806,7 +779,6 @@ function Home() {
             <h3 className="text-3xl text-gray-900 dark:text-white md:text-4xl">
               Design
             </h3>
-
             <div className="flex items-center">
               <div className="flex items-center gap-2 md:gap-3">
                 <img
@@ -824,7 +796,7 @@ function Home() {
       </section>
 
      {/* Experience */}
-      <section id="experience" className="py-16 md:py-24">
+      <section id="experience" className="py-16 md:py-24" data-aos="fade-up">
         <div className="container mx-auto px-6">
           <h2 className="mb-14 text-4xl text-gray-900 dark:text-white md:mb-20 md:text-5xl">
             Kinh Nghiệm
@@ -907,7 +879,7 @@ function Home() {
       </section>
 
       {/* Projects */}
-      <section id="projects" className="py-16 sm:py-20 lg:py-24">
+      <section id="projects" className="py-16 sm:py-20 lg:py-24" data-aos="fade-up">
         <div className="container mx-auto px-4 sm:px-6">
           <h2
             className="
@@ -943,6 +915,7 @@ function Home() {
                 dark:bg-gray-dark
                 dark:hover:shadow-none
               "
+              data-aos="fade-up" data-aos-delay="0"
             >
               <div
                 className="
@@ -1036,8 +1009,7 @@ function Home() {
                       dark:text-gray-300
                     "
                   >
-                    A project description is a foundational document that explains
-                    what a project is, why it matters, and how your team will execute it.
+                    DevQuiz là website giúp kiểm tra và củng cố kiến thức lập trình qua các chủ đề như HTML, CSS, JavaScript, React và Git/GitHub.
                   </p>
                   <div className="mb-6 flex flex-wrap gap-2 sm:mb-7 sm:gap-3">
                     <span
@@ -1174,6 +1146,7 @@ function Home() {
                 dark:bg-gray-dark
                 dark:hover:shadow-none
               "
+              data-aos="fade-up" data-aos-delay="150"
             >
               <div
                 className="
@@ -1403,6 +1376,7 @@ function Home() {
                 dark:bg-gray-dark
                 dark:hover:shadow-none
               "
+              data-aos="fade-up" data-aos-delay="300"
             >
               <div
                 className="
@@ -1614,7 +1588,7 @@ function Home() {
       </section>
 
       {/* Education */}         
-      <section id="education" className="py-16 sm:py-20 lg:py-24">
+      <section id="education" className="py-16 sm:py-20 lg:py-24" data-aos="fade-up">
         <div className="container mx-auto px-6">
           <h2 className="mb-10 text-4xl text-gray-900 sm:mb-14 sm:text-5xl dark:text-white">
             Học Vấn
@@ -1760,7 +1734,7 @@ function Home() {
       </section>
 
       {/* Contact */}
-      <section className="py-16 sm:py-20 lg:py-24">
+      <section className="py-16 sm:py-20 lg:py-24" data-aos="fade-up">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl text-gray-900 sm:text-5xl dark:text-white">
             Liên Hệ
@@ -1810,7 +1784,7 @@ function Home() {
           </div>
         </div>
       </section>
-      
+
     </>
   );
 }
