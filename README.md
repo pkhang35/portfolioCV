@@ -1,4 +1,4 @@
-<img width="2836" height="1486" alt="image" src="https://github.com/user-attachments/assets/5c73ba0a-66a3-4723-aa86-e7de23c2c80b" /># 💼 Personal Portfolio
+# 💼 Personal Portfolio
 
 A modern and responsive personal portfolio website built with **ReactJS** and **Tailwind CSS** to showcase my skills, projects, education, and experience as a Frontend Developer.
 
