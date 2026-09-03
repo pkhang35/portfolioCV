@@ -6,7 +6,7 @@ import Git from "../../assets/icons/git-svgrepo-com.svg";
 import React from "../../assets/icons/react-javascript-js-framework-facebook-svgrepo-com.svg";
 import JS from "../../assets/icons/js-svgrepo-com.svg";
 import Tailwind from "../../assets/icons/tailwind-svgrepo-com.svg";
-import Avatar from "../../assets/images/avatar.jpg";
+import Avatar from "../../assets/images/avatar.png";
 import HTML from "../../assets/icons/html-svgrepo-com.svg";
 import CSS from "../../assets/icons/css3-svgrepo-com.svg";
 import Bootstrap from "../../assets/icons/Bootstrap_logo.svg";
@@ -18,7 +18,9 @@ import Postman from "../../assets/icons/postman-icon.svg";
 import Figma from "../../assets/icons/figma-svgrepo-com.svg";
 import GPT from "../../assets/icons/chatgpt-icon.svg";
 import Claude from "../../assets/icons/claude-ai-icon.svg";
-import DevQuiz from "../../assets/images/devquiz.jpg";
+import DevQuiz from "../../assets/images/devquiz.png";
+import ITJobs from "../../assets/images/avatarITJobs.png";
+import Portfolio from "../../assets/images/avatarPortfolio.png";
 import {Link} from "react-router-dom"
 import { FileUser, ArrowRight, MapPin, Code2, Rocket ,PlayCircle, ExternalLink} from "lucide-react";
 function Home() {
@@ -620,6 +622,7 @@ function Home() {
               md:gap-8
               lg:grid-cols-[400px_1fr]
             "
+            data-aos="fade-up" data-aos-delay="0"
           >
             <h3 className="text-3xl text-gray-900 dark:text-white md:text-4xl">
               Frontend
@@ -728,6 +731,7 @@ function Home() {
               md:gap-8
               lg:grid-cols-[400px_1fr]
             "
+            data-aos="fade-up" data-aos-delay="200"
           >
             <h3 className="text-3xl text-gray-900 dark:text-white md:text-4xl">
               Tools & AI
@@ -775,6 +779,7 @@ function Home() {
               md:gap-8
               lg:grid-cols-[400px_1fr]
             "
+            data-aos="fade-up" data-aos-delay="400"
           >
             <h3 className="text-3xl text-gray-900 dark:text-white md:text-4xl">
               Design
@@ -1095,7 +1100,8 @@ function Home() {
                     Video demo
                   </a>
                   <a
-                    href="#"
+                    href="https://github.com/pkhang35/QuizHub"
+                    target="_blank"
                     className="
                       flex
                       items-center
@@ -1159,9 +1165,9 @@ function Home() {
                   dark:bg-gray-800
                 "
               >
-                <Link to="/devquiz" className="block h-full">
+                <Link to="/portfolio" className="block h-full">
                   <img
-                    src={DevQuiz}
+                    src={Portfolio}
                     alt="DevQuiz"
                     className="
                       h-full
@@ -1212,7 +1218,7 @@ function Home() {
               </div>
               {/* Content */}
               <div className="p-5 sm:p-6 lg:p-7">
-                <Link to="/devquiz">
+                <Link to="/portfolio">
                   <h3
                     className="
                       mb-3
@@ -1225,7 +1231,7 @@ function Home() {
                       dark:text-white
                     "
                   >
-                    DevQuiz
+                    Portfolio
                   </h3>
                   <p
                     className="
@@ -1237,8 +1243,7 @@ function Home() {
                       dark:text-gray-300
                     "
                   >
-                    A project description is a foundational document that explains
-                    what a project is, why it matters, and how your team will execute it.
+                    Website portfolio cá nhân giới thiệu kỹ năng, kinh nghiệm và các dự án Frontend, với giao diện hiện đại, responsive và hỗ trợ Dark Mode.
                   </p>
 
                   <div className="mb-6 flex flex-wrap gap-2 sm:mb-7 sm:gap-3">
@@ -1274,24 +1279,7 @@ function Home() {
                         dark:bg-gray-700
                       "
                     >
-                      Ant Design
-                    </span>
-                    <span
-                      className="
-                        rounded-full
-                        bg-gray-100
-                        px-3
-                        py-1
-                        text-xs
-                        transition-colors
-                        duration-300
-                        group-hover:bg-primary/10
-                        sm:px-4
-                        sm:text-sm
-                        dark:bg-gray-700
-                      "
-                    >
-                      Sass
+                      Tailwind CSS
                     </span>
                   </div>
                 </Link>
@@ -1324,7 +1312,8 @@ function Home() {
                   </a>
 
                   <a
-                    href="#"
+                    href="https://github.com/pkhang35/portfolioCV"
+                    target="_blank"
                     className="
                       flex
                       items-center
@@ -1389,9 +1378,9 @@ function Home() {
                   dark:bg-gray-800
                 "
               >
-                <Link to="/devquiz" className="block h-full">
+                <Link to="/itjobs" className="block h-full">
                   <img
-                    src={DevQuiz}
+                    src={ITJobs}
                     alt="DevQuiz"
                     className="
                       h-full
@@ -1441,7 +1430,7 @@ function Home() {
                 </Link>
               </div>
               <div className="p-5 sm:p-6 lg:p-7">
-                <Link to="/devquiz">
+                <Link to="/itjobs">
                   <h3
                     className="
                       mb-3
@@ -1454,7 +1443,7 @@ function Home() {
                       dark:text-white
                     "
                   >
-                    DevQuiz
+                    IT Jobs
                   </h3>
                   <p
                     className="
@@ -1466,8 +1455,7 @@ function Home() {
                       dark:text-gray-300
                     "
                   >
-                    A project description is a foundational document that explains
-                    what a project is, why it matters, and how your team will execute it.
+                    Website tuyển dụng IT cho phép người dùng tìm kiếm việc làm, xem chi tiết vị trí tuyển dụng, thông tin doanh nghiệp và ứng tuyển.
                   </p>
                   <div className="mb-6 flex flex-wrap gap-2 sm:mb-7 sm:gap-3">
                     <span
@@ -1551,7 +1539,8 @@ function Home() {
                     Video demo
                   </a>
                   <a
-                    href="#"
+                    href="https://github.com/pkhang35/recruitment-web"
+                    target="_blank"
                     className="
                       flex
                       items-center

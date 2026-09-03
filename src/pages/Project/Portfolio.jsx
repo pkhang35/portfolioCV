@@ -4,13 +4,11 @@ import {
   CheckCircle2,
 } from "lucide-react";
 import Github from "../../assets/icons/github-color-svgrepo-com.svg";
-import DevQuizImage from "../../assets/images/devquiz.png";
-import DevQuizImage1 from "../../assets/images/devquiz1.png";
-import DevQuizImage2 from "../../assets/images/devquiz2.png";
-import DevQuizImage3 from "../../assets/images/devquiz3.png";
-import DevQuizImage4 from "../../assets/images/devquiz4.png";
+import PortfolioImage from "../../assets/images/avatarPortfolio.png";
+import Portfolioone from "../../assets/images/portfolio1.png";
+import Portfoliotwo from "../../assets/images/portfolio2.png";
 
-function Devquiz() {
+function Portfolio() {
   return (
     <main className="py-24">
       <div className="container mx-auto px-6">
@@ -50,7 +48,7 @@ function Devquiz() {
               sm:text-6xl
             "
           >
-            DevQuiz
+            Portfolio
           </h1>
 
           <p
@@ -62,9 +60,7 @@ function Devquiz() {
               dark:text-gray-300
             "
           >
-            Nền tảng quiz tương tác giúp người dùng kiểm tra và
-            củng cố kiến thức lập trình thông qua các câu hỏi về
-            HTML, CSS, JavaScript, React và Git/GitHub.
+            Website portfolio cá nhân được xây dựng nhằm giới thiệu thông tin, kỹ năng, kinh nghiệm và các dự án Frontend đã thực hiện. Giao diện tập trung vào sự tối giản, hiện đại, responsive và hỗ trợ Dark Mode.
           </p>
 
           {/* Buttons */}
@@ -94,7 +90,7 @@ function Devquiz() {
             </a>
 
             <a
-              href="https://github.com/pkhang35/QuizHub"
+              href="https://github.com/pkhang35/portfolioCV"
               target="_blank"
               className="
                 inline-flex
@@ -167,7 +163,7 @@ function Devquiz() {
               </p>
 
               <p className="font-medium text-gray-900 dark:text-white">
-                React, JavaScript, Sass, Ant Design
+                React, JavaScript, Tailwind CSS
               </p>
             </div>
           </div>
@@ -188,21 +184,15 @@ function Devquiz() {
 
           <div className="max-w-3xl space-y-5 leading-8 text-gray-600 dark:text-gray-300">
             <p>
-              DevQuiz là một ứng dụng web được xây dựng nhằm
-              cung cấp trải nghiệm luyện tập kiến thức lập trình
-              thông qua hình thức trắc nghiệm.
+              Portfolio là website cá nhân được xây dựng để giới thiệu bản thân và định hướng phát triển trong lĩnh vực Frontend Development.
             </p>
 
             <p>
-              Người dùng có thể lựa chọn các chủ đề khác nhau,
-              thực hiện bài quiz và theo dõi kết quả sau khi
-              hoàn thành.
+              Website cung cấp các thông tin về kỹ năng, kinh nghiệm, quá trình học tập và những dự án đã thực hiện, giúp nhà tuyển dụng dễ dàng tìm hiểu về năng lực và quá trình phát triển của tôi.
             </p>
 
             <p>
-              Dự án tập trung vào việc xây dựng giao diện trực
-              quan, responsive và tổ chức các thành phần UI
-              có khả năng tái sử dụng.
+              Dự án tập trung vào việc xây dựng giao diện hiện đại, responsive và tối ưu trải nghiệm người dùng trên nhiều kích thước màn hình.
             </p>
           </div>
         </section>
@@ -234,12 +224,11 @@ function Devquiz() {
               <CheckCircle2 className="mb-4 size-6 text-primary" />
 
               <h3 className="mb-2 text-xl text-gray-900 dark:text-white">
-                Quiz theo chủ đề
+                Giới thiệu cá nhân
               </h3>
 
               <p className="leading-7 text-gray-600 dark:text-gray-300">
-                Cung cấp các bộ câu hỏi được phân loại theo
-                từng chủ đề.
+                Thông tin tổng quan về bản thân, định hướng và mục tiêu phát triển trong lĩnh vực Frontend.
               </p>
             </div>
 
@@ -255,12 +244,11 @@ function Devquiz() {
               <CheckCircle2 className="mb-4 size-6 text-primary" />
 
               <h3 className="mb-2 text-xl text-gray-900 dark:text-white">
-                Làm bài tương tác
+                Hiển thị kỹ năng
               </h3>
 
               <p className="leading-7 text-gray-600 dark:text-gray-300">
-                Người dùng có thể lựa chọn đáp án và thực hiện
-                bài quiz trực tiếp trên giao diện.
+                Trình bày các công nghệ và kỹ năng Frontend đã học và sử dụng trong quá trình phát triển dự án.
               </p>
             </div>
 
@@ -276,12 +264,11 @@ function Devquiz() {
               <CheckCircle2 className="mb-4 size-6 text-primary" />
 
               <h3 className="mb-2 text-xl text-gray-900 dark:text-white">
-                Hiển thị kết quả
+                Showcase dự án
               </h3>
 
               <p className="leading-7 text-gray-600 dark:text-gray-300">
-                Hiển thị kết quả sau khi hoàn thành bài quiz
-                để người dùng đánh giá khả năng của mình.
+                Hiển thị các dự án đã thực hiện kèm mô tả, công nghệ sử dụng và liên kết Demo/GitHub.
               </p>
             </div>
 
@@ -297,12 +284,11 @@ function Devquiz() {
               <CheckCircle2 className="mb-4 size-6 text-primary" />
 
               <h3 className="mb-2 text-xl text-gray-900 dark:text-white">
-                Responsive UI
+                Responsive & Dark Mode
               </h3>
 
               <p className="leading-7 text-gray-600 dark:text-gray-300">
-                Giao diện được thiết kế để hoạt động tốt trên
-                nhiều kích thước màn hình.
+                Giao diện thích ứng với nhiều kích thước màn hình và hỗ trợ chuyển đổi giữa Light Mode và Dark Mode.
               </p>
             </div>
 
@@ -334,32 +320,28 @@ function Devquiz() {
             <li className="flex gap-3 leading-7">
               <span className="mt-3 size-1.5 shrink-0 rounded-full bg-primary" />
               <span>
-                Sử dụng React Hooks để quản lý state và xử lý
-                logic tương tác trong ứng dụng.
+                Sử dụng React Router để quản lý điều hướng giữa các trang.
               </span>
             </li>
 
             <li className="flex gap-3 leading-7">
               <span className="mt-3 size-1.5 shrink-0 rounded-full bg-primary" />
               <span>
-                Sử dụng React Router để quản lý điều hướng
-                giữa các trang.
+                Sử dụng Tailwind CSS để xây dựng giao diện và responsive layout.
               </span>
             </li>
 
             <li className="flex gap-3 leading-7">
               <span className="mt-3 size-1.5 shrink-0 rounded-full bg-primary" />
               <span>
-                Sử dụng Ant Design để xây dựng các thành phần
-                giao diện và biểu đồ.
+                Sử dụng Lucide React cho hệ thống icon.
               </span>
             </li>
 
             <li className="flex gap-3 leading-7">
               <span className="mt-3 size-1.5 shrink-0 rounded-full bg-primary" />
               <span>
-                Kết nối dữ liệu với API mock thông qua
-                json-server.
+                Implement Dark Mode với Tailwind CSS và lưu trạng thái theme.
               </span>
             </li>
           </ul>
@@ -381,52 +363,8 @@ function Devquiz() {
           <div className="grid gap-6">
             <div className="overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700">
               <img
-                src={DevQuizImage}
-                alt="DevQuiz"
-                className="
-                  h-auto
-                  w-full
-                  object-cover
-                "
-              />
-            </div>
-            <div className="overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700">
-              <img
-                src={DevQuizImage1}
-                alt="DevQuiz"
-                className="
-                  h-auto
-                  w-full
-                  object-cover
-                "
-              />
-            </div>
-            <div className="overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700">
-              <img
-                src={DevQuizImage2}
-                alt="DevQuiz"
-                className="
-                  h-auto
-                  w-full
-                  object-cover
-                "
-              />
-            </div>
-            <div className="overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700">
-              <img
-                src={DevQuizImage3}
-                alt="DevQuiz"
-                className="
-                  h-auto
-                  w-full
-                  object-cover
-                "
-              />
-            </div>
-            <div className="overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700">
-              <img
-                src={DevQuizImage4}
-                alt="DevQuiz"
+                src={PortfolioImage}
+                alt="Portfolio"
                 className="
                   h-auto
                   w-full
@@ -436,15 +374,22 @@ function Devquiz() {
             </div>
 
             {/* Sau này thêm ảnh ở đây */}
-            {/* 
+            
             <div className="overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700">
               <img
-                src={DevQuizImage2}
-                alt="DevQuiz quiz page"
+                src={Portfolioone}
+                alt="Portfolio page"
                 className="h-auto w-full object-cover"
               />
             </div>
-            */}
+            <div className="overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700">
+              <img
+                src={Portfoliotwo}
+                alt="Portfolio page project"
+                className="h-auto w-full object-cover"
+              />
+            </div>
+           
           </div>
         </section>
 
@@ -453,4 +398,4 @@ function Devquiz() {
   );
 }
 
-export default Devquiz;
+export default Portfolio;

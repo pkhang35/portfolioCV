@@ -6,6 +6,8 @@ import Education from "./pages/Education"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Portfolio from "./pages/Project/Portfolio"
+import ITJobs from "./pages/Project/ITJobs"
   
 function App() {
   useEffect(() => {
@@ -21,6 +23,8 @@ function App() {
         <Route path="" element={<LayoutDefault/>}>
           <Route path="/" element={<Home/>}/>
           <Route path="devquiz" element={<Devquiz/>}/>
+          <Route path="portfolio" element={<Portfolio/>}/>
+          <Route path="itjobs" element={<ITJobs/>}/>
           <Route path="education" element={<Education/>}/>
         </Route>
       </Routes>

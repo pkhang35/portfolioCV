@@ -4,13 +4,12 @@ import {
   CheckCircle2,
 } from "lucide-react";
 import Github from "../../assets/icons/github-color-svgrepo-com.svg";
-import DevQuizImage from "../../assets/images/devquiz.png";
-import DevQuizImage1 from "../../assets/images/devquiz1.png";
-import DevQuizImage2 from "../../assets/images/devquiz2.png";
-import DevQuizImage3 from "../../assets/images/devquiz3.png";
-import DevQuizImage4 from "../../assets/images/devquiz4.png";
+import ITJobsImage from "../../assets/images/avatarITJobs.png";
+import ITJobsImage1 from "../../assets/images/ITJobs1.png";
+import ITJobsImage2 from "../../assets/images/ITJobs2.png";
+import ITJobsImage3 from "../../assets/images/ITJobs3.png";
 
-function Devquiz() {
+function ITJobs() {
   return (
     <main className="py-24">
       <div className="container mx-auto px-6">
@@ -50,7 +49,7 @@ function Devquiz() {
               sm:text-6xl
             "
           >
-            DevQuiz
+            IT Jobs
           </h1>
 
           <p
@@ -62,9 +61,7 @@ function Devquiz() {
               dark:text-gray-300
             "
           >
-            Nền tảng quiz tương tác giúp người dùng kiểm tra và
-            củng cố kiến thức lập trình thông qua các câu hỏi về
-            HTML, CSS, JavaScript, React và Git/GitHub.
+            Website tuyển dụng IT giúp người dùng tìm kiếm việc làm, khám phá thông tin công ty và xem chi tiết các cơ hội nghề nghiệp trong lĩnh vực IT.
           </p>
 
           {/* Buttons */}
@@ -94,7 +91,7 @@ function Devquiz() {
             </a>
 
             <a
-              href="https://github.com/pkhang35/QuizHub"
+              href="https://github.com/pkhang35/recruitment-web"
               target="_blank"
               className="
                 inline-flex
@@ -188,21 +185,15 @@ function Devquiz() {
 
           <div className="max-w-3xl space-y-5 leading-8 text-gray-600 dark:text-gray-300">
             <p>
-              DevQuiz là một ứng dụng web được xây dựng nhằm
-              cung cấp trải nghiệm luyện tập kiến thức lập trình
-              thông qua hình thức trắc nghiệm.
+              IT Jobs là một website tuyển dụng dành cho lĩnh vực công nghệ, được xây dựng nhằm kết nối người tìm việc với các cơ hội nghề nghiệp phù hợp.
             </p>
 
             <p>
-              Người dùng có thể lựa chọn các chủ đề khác nhau,
-              thực hiện bài quiz và theo dõi kết quả sau khi
-              hoàn thành.
+              Người dùng có thể tìm kiếm và khám phá các công việc IT, xem thông tin chi tiết về vị trí tuyển dụng cũng như tìm hiểu thông tin của các công ty.
             </p>
 
             <p>
-              Dự án tập trung vào việc xây dựng giao diện trực
-              quan, responsive và tổ chức các thành phần UI
-              có khả năng tái sử dụng.
+              Dự án tập trung vào việc xây dựng giao diện trực quan, responsive và mang lại trải nghiệm tìm kiếm việc làm thuận tiện cho người dùng.
             </p>
           </div>
         </section>
@@ -234,12 +225,11 @@ function Devquiz() {
               <CheckCircle2 className="mb-4 size-6 text-primary" />
 
               <h3 className="mb-2 text-xl text-gray-900 dark:text-white">
-                Quiz theo chủ đề
+                Tìm kiếm việc làm
               </h3>
 
               <p className="leading-7 text-gray-600 dark:text-gray-300">
-                Cung cấp các bộ câu hỏi được phân loại theo
-                từng chủ đề.
+                Cho phép người dùng tìm kiếm và khám phá các vị trí tuyển dụng IT phù hợp với nhu cầu.
               </p>
             </div>
 
@@ -255,12 +245,11 @@ function Devquiz() {
               <CheckCircle2 className="mb-4 size-6 text-primary" />
 
               <h3 className="mb-2 text-xl text-gray-900 dark:text-white">
-                Làm bài tương tác
+                Ứng tuyển việc làm
               </h3>
 
               <p className="leading-7 text-gray-600 dark:text-gray-300">
-                Người dùng có thể lựa chọn đáp án và thực hiện
-                bài quiz trực tiếp trên giao diện.
+                Ứng viên có thể xem chi tiết công việc và gửi hồ sơ ứng tuyển trực tiếp trên nền tảng.
               </p>
             </div>
 
@@ -276,12 +265,11 @@ function Devquiz() {
               <CheckCircle2 className="mb-4 size-6 text-primary" />
 
               <h3 className="mb-2 text-xl text-gray-900 dark:text-white">
-                Hiển thị kết quả
+                Đăng tin tuyển dụng
               </h3>
 
               <p className="leading-7 text-gray-600 dark:text-gray-300">
-                Hiển thị kết quả sau khi hoàn thành bài quiz
-                để người dùng đánh giá khả năng của mình.
+                Nhà tuyển dụng có thể đăng thông tin tuyển dụng, mô tả công việc và yêu cầu ứng viên.
               </p>
             </div>
 
@@ -297,12 +285,11 @@ function Devquiz() {
               <CheckCircle2 className="mb-4 size-6 text-primary" />
 
               <h3 className="mb-2 text-xl text-gray-900 dark:text-white">
-                Responsive UI
+                Quản lý tuyển dụng
               </h3>
 
               <p className="leading-7 text-gray-600 dark:text-gray-300">
-                Giao diện được thiết kế để hoạt động tốt trên
-                nhiều kích thước màn hình.
+               Nhà tuyển dụng có thể quản lý các tin tuyển dụng và theo dõi danh sách ứng viên cho từng vị trí.
               </p>
             </div>
 
@@ -381,7 +368,7 @@ function Devquiz() {
           <div className="grid gap-6">
             <div className="overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700">
               <img
-                src={DevQuizImage}
+                src={ITJobsImage}
                 alt="DevQuiz"
                 className="
                   h-auto
@@ -390,9 +377,9 @@ function Devquiz() {
                 "
               />
             </div>
-            <div className="overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700">
+             <div className="overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700">
               <img
-                src={DevQuizImage1}
+                src={ITJobsImage1}
                 alt="DevQuiz"
                 className="
                   h-auto
@@ -401,9 +388,9 @@ function Devquiz() {
                 "
               />
             </div>
-            <div className="overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700">
+             <div className="overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700">
               <img
-                src={DevQuizImage2}
+                src={ITJobsImage2}
                 alt="DevQuiz"
                 className="
                   h-auto
@@ -412,9 +399,9 @@ function Devquiz() {
                 "
               />
             </div>
-            <div className="overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700">
+             <div className="overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700">
               <img
-                src={DevQuizImage3}
+                src={ITJobsImage3}
                 alt="DevQuiz"
                 className="
                   h-auto
@@ -423,17 +410,7 @@ function Devquiz() {
                 "
               />
             </div>
-            <div className="overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700">
-              <img
-                src={DevQuizImage4}
-                alt="DevQuiz"
-                className="
-                  h-auto
-                  w-full
-                  object-cover
-                "
-              />
-            </div>
+            
 
             {/* Sau này thêm ảnh ở đây */}
             {/* 
@@ -453,4 +430,4 @@ function Devquiz() {
   );
 }
 
-export default Devquiz;
+export default ITJobs;

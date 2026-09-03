@@ -111,8 +111,8 @@ function Header() {
 
   const projectRoutes = [
     "/devquiz",
-    // "/resume-builder",
-    // "/quote-generator",
+    "/portfolio",
+    "/itjobs",
   ];
   const educationRoutes = [
     "/education",

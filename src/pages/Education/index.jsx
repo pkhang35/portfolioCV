@@ -195,7 +195,7 @@ function Education() {
                 </p>
 
                 <a
-                  href="/documents/diploma.pdf"
+                  href="https://drive.google.com/file/d/1O1G0ZMW5Lotb47mJFF5vO6VwejuDQr-_/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
@@ -270,7 +270,7 @@ function Education() {
                 </p>
 
                 <a
-                  href="/documents/transcript.pdf"
+                  href="https://drive.google.com/file/d/1kjeZ98Lm_YWyE3g9akhxIWh7JFFrDRwX/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
