@@ -101,7 +101,7 @@ https://portfolio-pham-tuan-khang.vercel.app/
 
 ### Projects
 
-<img width="2836" height="1486" alt="image" src="https://github.com/user-attachments/assets/f1902042-00ab-400f-a03f-849ee1eb8f16" />
+<img width="2838" height="1520" alt="image" src="https://github.com/user-attachments/assets/39475edc-8755-4a44-a9d8-440d1aa8057f" />
 
 
 ### Education
