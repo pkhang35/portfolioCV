@@ -1,16 +1,120 @@
-# React + Vite
+# 💼 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website built with **ReactJS** and **Tailwind CSS** to showcase my skills, projects, education, and experience as a Frontend Developer.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🏠 **Home** — Introduce myself and highlight my main skills.
+* 🛠️ **Skills** — Showcase frontend technologies and technical skills.
+* 💼 **Experience** — Display my learning and development experience.
+* 📂 **Projects** — Showcase personal and academic projects.
+* 🎓 **Education** — Provide information about my educational background.
+* 🌐 **Languages** — Display language skills.
+* 📄 **CV** — View and access my CV.
+* 📱 **Responsive Design** — Optimized for desktop, tablet, and mobile devices.
+* 🌙 **Dark Mode** — Switch between light and dark themes.
+* 🧭 **Smooth Navigation** — Navigate between sections and pages using React Router.
 
-## React Compiler
+## 🛠️ Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **ReactJS**
+* **JavaScript (ES6+)**
+* **Tailwind CSS**
+* **React Router**
+* **Lucide React**
+* **Vite**
+* **Git & GitHub**
 
-## Expanding the ESLint configuration
+## 🎯 Technical Highlights
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Component-based architecture with ReactJS.
+* Reusable UI components.
+* Client-side routing with React Router.
+* Responsive layouts using Tailwind CSS.
+* Dark mode implementation using Tailwind CSS and `localStorage`.
+* Reusable icons with Lucide React.
+* Responsive navigation and UI interactions.
+* Deployed and hosted with Vercel.
+
+## 📁 Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+│   ├── Header/
+│   ├── Footer/
+│   └── ...
+├── layouts/
+├── pages/
+│   ├── Home/
+│   ├── Skills/
+│   ├── Experience/
+│   ├── Projects/
+│   ├── Education/
+│   └── ...
+├── routes/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-portfolio.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd your-portfolio
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at the local development URL provided by Vite.
+
+## 🌐 Demo
+
+🔗 **Live Demo:**
+[https://your-portfolio.vercel.app](https://portfolio-pham-tuan-khang.vercel.app/)
+
+## 📸 Screenshots
+
+### Home
+
+Add screenshots of your portfolio here.
+
+### Projects
+
+Add screenshots of the Projects section here.
+
+### Dark Mode
+
+Add a screenshot of the dark mode interface here.
+
+## 📌 Purpose
+
+This project was created to practice and demonstrate my frontend development skills, especially working with **ReactJS, Tailwind CSS, responsive design, component-based architecture, and React Router**.
+
+## 👨‍💻 Author
+
+**Phạm Tuấn Khang**
+
+Frontend Developer
+
+* GitHub: https://github.com/pkhang35
+* Portfolio: https://portfolio-pham-tuan-khang.vercel.app/
