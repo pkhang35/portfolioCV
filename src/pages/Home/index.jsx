@@ -109,7 +109,7 @@ function Home() {
               </a>
 
               <a
-                href="#"
+                href="https://drive.google.com/file/d/14EAqmms05r3_V3ffBC6OnvvZkEY8ZQkT/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
