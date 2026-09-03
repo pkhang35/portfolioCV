@@ -1,4 +1,4 @@
-# 💼 Personal Portfolio
+<img width="2836" height="1486" alt="image" src="https://github.com/user-attachments/assets/5c73ba0a-66a3-4723-aa86-e7de23c2c80b" /># 💼 Personal Portfolio
 
 A modern and responsive personal portfolio website built with **ReactJS** and **Tailwind CSS** to showcase my skills, projects, education, and experience as a Frontend Developer.
 
@@ -96,15 +96,18 @@ https://portfolio-pham-tuan-khang.vercel.app/
 
 ### Home
 
-Add screenshots of your portfolio here.
+<img width="2836" height="1486" alt="image" src="https://github.com/user-attachments/assets/9bd09455-40a8-4a2f-b321-9f34ebb947ee" />
+
 
 ### Projects
 
-Add screenshots of the Projects section here.
+<img width="2836" height="1486" alt="image" src="https://github.com/user-attachments/assets/f1902042-00ab-400f-a03f-849ee1eb8f16" />
 
-### Dark Mode
 
-Add a screenshot of the dark mode interface here.
+### Education
+
+<img width="2842" height="1532" alt="image" src="https://github.com/user-attachments/assets/78bfe95c-7383-4d31-bd04-6472f527caa8" />
+
 
 ## 📌 Purpose
 
@@ -116,5 +119,5 @@ This project was created to practice and demonstrate my frontend development ski
 
 Frontend Developer
 
-* GitHub: https://github.com/pkhang35
-* Portfolio: https://portfolio-pham-tuan-khang.vercel.app/
+* GitHub: [pkhang35](https://github.com/pkhang35)
+* Portfolio: [Phạm Tuấn Khang](https://portfolio-pham-tuan-khang.vercel.app/)
