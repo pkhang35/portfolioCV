@@ -64,13 +64,13 @@ src/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-portfolio.git
+https://github.com/pkhang35/portfolioCV.git
 ```
 
 ### 2. Navigate to the project
 
 ```bash
-cd your-portfolio
+cd portfolioCV
 ```
 
 ### 3. Install dependencies
@@ -90,7 +90,7 @@ The application will be available at the local development URL provided by Vite.
 ## 🌐 Demo
 
 🔗 **Live Demo:**
-[https://your-portfolio.vercel.app](https://portfolio-pham-tuan-khang.vercel.app/)
+https://portfolio-pham-tuan-khang.vercel.app/
 
 ## 📸 Screenshots
 
