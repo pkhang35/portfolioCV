@@ -6,7 +6,7 @@ import Git from "../../assets/icons/git-svgrepo-com.svg";
 import React from "../../assets/icons/react-javascript-js-framework-facebook-svgrepo-com.svg";
 import JS from "../../assets/icons/js-svgrepo-com.svg";
 import Tailwind from "../../assets/icons/tailwind-svgrepo-com.svg";
-import Avatar from "../../assets/images/avatar.png";
+import Avatar from "../../assets/images/avatar.jpg";
 import HTML from "../../assets/icons/html-svgrepo-com.svg";
 import CSS from "../../assets/icons/css3-svgrepo-com.svg";
 import Bootstrap from "../../assets/icons/Bootstrap_logo.svg";
@@ -109,7 +109,7 @@ function Home() {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/14EAqmms05r3_V3ffBC6OnvvZkEY8ZQkT/view?usp=sharing"
+                href="https://drive.google.com/file/d/1F-Yg82jIdg1T9Osrw4Lsz0gcsO9Ctrgz/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
